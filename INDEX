@@ -1,4 +1,12 @@
 {
+    "asigra": {
+        "MANIFEST": "asigra.json",
+        "name": "Asigra Backup",
+        "icon": "https://www.trueos.org/iocage-icons/asigra.png",
+        "description": "Full-featured backup solution fully integrated into FreeNAS. (Requires Subscription)",
+        "official": true,
+        "primary_pkg": "dssystem"
+    },
     "bru-server": {
         "MANIFEST": "bru-server.json",
         "name": "BRU Server",
