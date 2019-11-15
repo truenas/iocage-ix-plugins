@@ -1,26 +1,43 @@
 {
-  "bru-server": {
+    "asigra": {
+        "MANIFEST": "asigra.json",
+        "name": "Asigra Backup",
+        "icon": "https://www.trueos.org/iocage-icons/asigra.png",
+        "description": "Full-featured backup solution fully integrated into FreeNAS. (Requires Subscription)",
+        "official": true,
+        "primary_pkg": "dssystem",
+        "category": "backup",
+        "maintainer": "iXsystems <dev@ixsystems.com>"
+    },
+    "bru-server": {
         "MANIFEST": "bru-server.json",
         "name": "BRU Server",
         "icon": "https://www.trueos.org/iocage-icons/bru-server.png",
         "description": "BRU Server™ Backup and Recovery Software by TOLIS Group, Inc.",
         "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-bru-server/master/bru-license",
-        "official": true
-  },
- "iconik": {
+        "official": true,
+        "primary_pkg": null,
+        "category": "backup",
+        "maintainer": "iXsystems <dev@ixsystems.com>"
+    },
+    "iconik": {
         "MANIFEST": "iconik.json",
         "name": "Iconik",
         "description": "The iconik Storage Gateway for FILE storages synchronization.",
         "official": true,
         "icon": "https://raw.githubusercontent.com/freenas/iocage-ix-plugins/master/icons/iconik.png",
-        "primary_pkg": "iconik_storage_gateway"
- },
- "nextcloud": {
+        "primary_pkg": "iconik_storage_gateway",
+        "category": "collaboration",
+        "maintainer": "iXsystems <dev@ixsystems.com>"
+    },
+    "nextcloud": {
         "MANIFEST": "nextcloud.json",
         "name": "Nextcloud",
         "primary_pkg": "nextcloud-php71",
         "icon": "https://www.trueos.org/iocage-icons/nextcloud.png",
         "description": "Suite of client-server software for creating and using file hosting services.",
-        "official": true
-  } 
+        "official": true,
+        "category": "collaboration",
+        "maintainer": "iXsystems <dev@ixsystems.com>"
+    }
 }
