@@ -15,7 +15,7 @@
         "icon": "https://www.trueos.org/iocage-icons/bru-server.png",
         "description": "BRU Server™ Backup and Recovery Software by TOLIS Group, Inc.",
         "license": "https://raw.githubusercontent.com/freenas/iocage-plugin-bru-server/master/bru-license",
-        "official": true,
+        "official": false,
         "primary_pkg": null,
         "category": "backup",
         "maintainer": "iXsystems <dev@ixsystems.com>"
@@ -36,7 +36,7 @@
         "primary_pkg": "nextcloud-php71",
         "icon": "https://www.trueos.org/iocage-icons/nextcloud.png",
         "description": "Suite of client-server software for creating and using file hosting services.",
-        "official": true,
+        "official": false,
         "category": "collaboration",
         "maintainer": "iXsystems <dev@ixsystems.com>"
     }
