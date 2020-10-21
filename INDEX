@@ -22,7 +22,7 @@
     "nextcloud": {
         "MANIFEST": "nextcloud.json",
         "name": "Nextcloud",
-        "primary_pkg": "nextcloud-php71",
+        "primary_pkg": "nextcloud-php74",
         "icon": "https://www.trueos.org/iocage-icons/nextcloud.png",
         "description": "Suite of client-server software for creating and using file hosting services.",
         "official": false,
