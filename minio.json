@@ -6,7 +6,7 @@
     "official": true,
     "properties": {
         "nat": 1,
-        "nat_forwards": "tcp(9000:9001)"
+        "nat_forwards": "tcp(9001:9001),tcp(9000:9000)"
     },
     "pkgs": [
         "minio"
